@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Outfit&family=Ubuntu&display=swap');
+
+:root {
+	--bg-primary: rgb(32, 33, 42);
+	--bg-root: rgb(66, 68, 87, 1);
+	--bg-secondary: rgb(55, 57, 63);
+	--bg-tertiary: rgb(40, 41, 50);
+    --fg-primary: rgb(233, 233, 233);
+    --fg-secondary: rgb(131, 133, 137);
+	--fw-sm: 500;
+	--fw-base: 700;
+	--hi-danger: rgb(255, 0, 126);
+	--hi-primary: rgb(138, 149, 255);
+	--hi-secondary: rgb(90, 104, 242);
+	--hi-success: rgb(17, 201, 0);
+	--hi-warning: rgb(255, 147, 5);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: var(--bg-root);
+    color: var(--fg-primary);
+    display: grid;
+    min-height: 100vh;
+    min-width: 100vw;
+    place-content: center;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: var(--fw-base);
+	line-height: 1.2;
+}
+
 .grid {
-    
 }
